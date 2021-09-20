@@ -1,0 +1,81 @@
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.table {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.table__row {
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+.modal__icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal__container p {
+    margin-top: 15px;
+}
+
+.modal__container p:first-child {
+    margin-top: 0;
+}
+
+.cell__triangle {
+      margin-top: 4px;
+      margin-left: 10px;
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 10px solid black;
+}
+
+.cell__triangle--rotate {
+    transform: rotate(180deg);
+}
+
+.input {
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.input input {
+    width: 30%;
+    padding-left: 10px;
+    height: 30px;
+    font-size: 16px;
+    border: 2px solid black;
+}
